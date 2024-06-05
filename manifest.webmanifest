@@ -1,6 +1,6 @@
 {
-    "name": "KitchenUnityWeb",
-    "short_name": "KitchenUnityWeb",
+    "name": "webgl_test",
+    "short_name": "webgl_test",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
