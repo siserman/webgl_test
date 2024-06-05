@@ -310,8 +310,6 @@ function createUnityInstance(canvas, config, onProgress) {
         gpu = (gl.getExtension("WEBGL_debug_renderer_info") && gl.getParameter(0x9246 /*debugRendererInfo.UNMASKED_RENDERER_WEBGL*/)) || gl.getParameter(0x1F01 /*gl.RENDERER*/);
       }
 
-      // Does the browser support WebGPU?
-      webgpuVersion = navigator.gpu ? 1 : 0;
     }
 
     // Returns true on success, and a string on failure that denotes which sub-feature was missing.
